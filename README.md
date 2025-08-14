@@ -1,4 +1,4 @@
-# NexusChatUI — Corporate Messenger Interface (UI Only)
+# NexusChatUI — Messenger Interface
 
 > 🇷🇺 Русская версия ниже • English version below
 
