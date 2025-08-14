@@ -1,4 +1,4 @@
-# NexusChatUI — Messenger Interface
+# NexusChatUI — Corporate Messenger Interface (UI Only)
 
 > 🇷🇺 Русская версия ниже • English version below
 
@@ -7,99 +7,75 @@
 ## 🇬🇧 English
 
 ### Overview
-**NexusChatUI** is the **frontend** (UI only) of a corporate messenger built with **Flutter**.  
-It currently serves as a visual shell for future backend integration and is under **active development**.
+**NexusChatUI** is a **UI-only** corporate messenger built with **Flutter**.  
+It is designed exclusively as a **visual interface**, without any backend, server connection, or database logic.  
+All future updates will focus solely on improving and expanding the **user interface**.
 
-The purpose of this project is to design a clean, modern, and intuitive chat interface that will later support real-time communication once connected to a backend server.
+The goal is to provide a polished, modern, and intuitive messenger design that can be used as a base for showcasing UI concepts or integrating into other systems.
 
 ### Status
-🚧 **Work in progress** — This repository contains only the UI layer. Backend logic, database integration, and real-time messaging will be implemented in future updates.
+✨ **Active UI improvements** — No backend will be implemented. This project will only evolve visually.
 
-### Current Features
-- **Chat list screen** — displays contacts with avatars, names, and last messages
-- **Conversation screen** — shows chat history and a text input bar
-- **Dark theme** with accent colors
-- **Responsive design** — adapts to desktop, tablet, and mobile devices
-- **Custom theming** to match corporate identity
-
-### Planned Features
-- Real-time messaging via WebSocket or REST API
-- Authentication & user profiles
-- File sharing & attachments
-- Push notifications
+### Features (UI)
+- Chat list with avatars, names, and previews of last messages
+- Individual chat screen with text input field
+- Modern dark theme with accent colors
+- Adaptive design for desktop and mobile devices
+- Smooth animations for a better user experience
 
 ### Tech Stack
-- **Flutter** — cross-platform framework
-- **Dart** — programming language
-- Material Design — consistent UI components
-- Adaptive layout widgets
+- **Flutter** for cross-platform UI development
+- Material Design widgets
+- Custom theming and styling
 
-### Installation
+### Installation & Run
 ```bash
-# Clone repository
-git clone <your-repo-url>.git
+# Clone the repository
+git clone <your-repo-url>
 cd NexusChatUI
 
-# Get Flutter dependencies
+# Get dependencies
 flutter pub get
 
-# Run the project (choose your platform)
-flutter run -d chrome   # Web
-flutter run -d windows  # Windows
-flutter run -d android  # Android
+# Run the app (example for Chrome)
+flutter run -d chrome
 ```
-
-### Contributing
-Since the project is in the early stages, contributions are welcome.  
-You can open issues, suggest UI improvements, or submit pull requests.
 
 ---
 
 ## 🇷🇺 Русская версия
 
 ### Описание
-**NexusChatUI** — это **фронтенд** (только интерфейс) корпоративного мессенджера, разработанный с использованием **Flutter**.  
-На данный момент это визуальная оболочка для будущей интеграции с серверной частью и находится в стадии **активной разработки**.
+**NexusChatUI** — это **только интерфейс** корпоративного мессенджера, созданный на **Flutter**.  
+В нём **никогда не будет бэкенда**, подключения к серверу или работы с базами данных.  
+Все будущие обновления будут направлены исключительно на улучшение и расширение **визуальной части**.
 
-Цель проекта — создать чистый, современный и удобный интерфейс чата, который в дальнейшем будет поддерживать обмен сообщениями в реальном времени после подключения к бэкенду.
+Цель — создать стильный, современный и удобный дизайн мессенджера, который можно использовать как демонстрацию UI или интегрировать в другие проекты.
 
 ### Статус
-🚧 **Проект в разработке** — В текущей версии есть только интерфейс. Логика бэкенда, база данных и обмен сообщениями будут добавлены позже.
+✨ **Активно улучшается UI** — Бэкенд не планируется, проект будет развиваться только с точки зрения дизайна.
 
-### Текущие возможности
-- **Экран списка чатов** — показывает контакты с аватарками, именами и последними сообщениями
-- **Экран переписки** — история сообщений и панель ввода текста
-- **Тёмная тема** с акцентными цветами
-- **Адаптивный дизайн** — корректно отображается на ПК, планшетах и телефонах
-- **Кастомная цветовая схема** под корпоративный стиль
-
-### Планируемые возможности
-- Обмен сообщениями в реальном времени через WebSocket или REST API
-- Авторизация и профили пользователей
-- Отправка файлов и вложений
-- Push-уведомления
+### Возможности (UI)
+- Список чатов с аватарками, именами и последними сообщениями
+- Экран переписки с полем ввода текста
+- Современная тёмная тема с акцентными цветами
+- Адаптивная верстка под ПК и мобильные устройства
+- Плавные анимации для лучшего UX
 
 ### Стек технологий
-- **Flutter** — кроссплатформенный фреймворк
-- **Dart** — язык программирования
-- Material Design — единый стиль UI-компонентов
-- Виджеты адаптивной верстки
+- **Flutter** для кроссплатформенной разработки интерфейса
+- Виджеты Material Design
+- Кастомная цветовая схема и стили
 
-### Установка
+### Установка и запуск
 ```bash
-# Клонировать репозиторий
-git clone <your-repo-url>.git
+# Клонируем репозиторий
+git clone <your-repo-url>
 cd NexusChatUI
 
-# Установить зависимости Flutter
+# Устанавливаем зависимости
 flutter pub get
 
-# Запустить проект (выберите платформу)
-flutter run -d chrome   # Web
-flutter run -d windows  # Windows
-flutter run -d android  # Android
+# Запуск (пример для Chrome)
+flutter run -d chrome
 ```
-
-### Как помочь проекту
-Так как проект находится на раннем этапе, приветствуется любая помощь.  
-Вы можете создавать задачи, предлагать улучшения UI или отправлять pull request’ы.
